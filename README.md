@@ -25,6 +25,25 @@
       - ![image](https://user-images.githubusercontent.com/65020700/188282426-c05df948-2d2a-4980-8dcd-6e7e70e93833.png)
     4. Adam Optimization Algorithm (Momentum + RMS Prop)
       - ![image](https://user-images.githubusercontent.com/65020700/188282486-ba839d0a-84c3-4fa6-8a99-0d8b870ce5c3.png)
-
-      
+2. CNN
+  1. what?
+    - Convolutional Neural Networks
+    - 주로 이미지나 영상 데이터를 처리할 때 사용
+    - Convolution이 주요 아이디어인 모델 (Convolution : Kernel을 통해 연산, Convolution Operation)
+    - 이미지 전체보다는 부분을 보는 것, 한 픽셀과 주변 픽셀들과의 연관성을 살리는 것
+  2. why?
+    - DNN을 개선하기 위해 도입
+      - DNN은 보통 Flatten을 통해 계산
+      - 이미지의 공간적/지역적 정보가 손실
+      - 추상화 과정 없이 바로 연산과정 : 학습시간, 효율 저하
+      - ![image](https://user-images.githubusercontent.com/65020700/188305375-d35a4c9d-ac25-4ef4-ac23-d7ed8b17c597.png)
+      - 새의 부리모양, 날개모양 등을 통해 새라는 것을 인지 -> Flatten을 사용하면 이러한 부분이 왜곡될 우려가 있음
+      - 전체보다는 부분을 보는 것이 이미지 인식에 더욱 효율적일수도 있음 (Kernel의 크기를 정하는 의미가 이렇게 부분을 보겠다는 의미가 될 수도 있을 것 같습니다.)
+  3. how?
+    - Convolution -> Relu -> Pool -> Conv -> Relu -> Pool -> ... -> Flatten -> Classification -> Activation Function
+    - Zero Padding : Convolution을 하면 외각쪽의 값들은 비중이 줄어드는데 이것을 보완해주기 위해 외각에 0 element들을 덧붙여 주는 것
+    - stride : 건너뛰기, 연산량 감소 효과? (#TODO : Stride 사용 이유 리서치) 
+    - activation : "A neural network without an activation function is just a linear regression model." -> 레이어가 깊어저도 똑같이 그냥 선형 회귀에 불과하다.
+      - Linear, Sigmoid, Hyperbolic, ReLU, LeakyReLU, Softmax
+    
 
