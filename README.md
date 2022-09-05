@@ -45,5 +45,12 @@
     - stride : 건너뛰기, 연산량 감소 효과? (#TODO : Stride 사용 이유 리서치) 
     - activation : "A neural network without an activation function is just a linear regression model." -> 레이어가 깊어저도 똑같이 그냥 선형 회귀에 불과하다.
       - Linear, Sigmoid, Hyperbolic, ReLU, LeakyReLU, Softmax
-    
+
+3. Dropout
+  1. what?
+    - Drop-out은 서로 연결된 연결망(layer)에서 0부터 1 사이의 확률로 뉴런을 제거(drop)하는 기법
+  2. why?
+    - 특정한 변수(feature)가 영향을 너무 많이 끼치는 것을 방지하기 위함 -> Overfitting 방지를 위함
+    - Drop-out을 적용하지 않고 모델을 학습하면 해당 Feature에 가중치가 가장 크게 설정되어 나머지 Feature에 대해서는 제대로 학습되지 않을 것
+  3. how?
 
