@@ -54,4 +54,5 @@
         - Drop-out을 적용하지 않고 모델을 학습하면 해당 Feature에 가중치가 가장 크게 설정되어 나머지 Feature에 대해서는 제대로 학습되지 않을 것
     3. how?
         - ![image](https://user-images.githubusercontent.com/65020700/188355067-14667176-7dab-481b-bbe0-8115b279fd67.png)
+        - https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
 
