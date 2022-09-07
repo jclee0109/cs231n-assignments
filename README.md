@@ -3,7 +3,11 @@
 # assignments2
 ## 3. Drop-out
 # 0. Background Knowledge
-1. Optimization
+0. python 함수
+    1. np.random.rand(*x.shape)
+        - *은 dictionary에서 key값만 뽑아오는 역할
+    2. np.dot, matmul
+2. Optimization
     1. What?
         - Neural Network를 빠르게 훈련시키는 최적화 알고리즘
     2. Why?
@@ -25,7 +29,7 @@
         - ![image](https://user-images.githubusercontent.com/65020700/188282426-c05df948-2d2a-4980-8dcd-6e7e70e93833.png)
         4. Adam Optimization Algorithm (Momentum + RMS Prop)
         - ![image](https://user-images.githubusercontent.com/65020700/188282486-ba839d0a-84c3-4fa6-8a99-0d8b870ce5c3.png)
-2. CNN
+3. CNN
     1. what?
         - Convolutional Neural Networks
         - 주로 이미지나 영상 데이터를 처리할 때 사용
