@@ -59,4 +59,5 @@
     3. how?
         - ![image](https://user-images.githubusercontent.com/65020700/188355067-14667176-7dab-481b-bbe0-8115b279fd67.png)
         - https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
+        - Convolution - Batch Normalization - Activation - Dropout - Pooling 순서로 
 
